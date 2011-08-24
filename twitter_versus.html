@@ -229,6 +229,7 @@
 		display:inline-block;
 		vertical-align: top;
 		margin:15px;
+		position:relative;
 		}
 		.stream .title > input {
 			min-height: 1em;
@@ -242,6 +243,12 @@
 		.stream ul {
 			margin:0px;
 			list-style:none;
+		}
+		.stream .fetcher-container {
+			height: 15px;
+			position: absolute;
+			top: 65px;
+			width: 100%;
 		}
 		.stream .fetcher {
 			display: none;
@@ -311,8 +318,10 @@
 					<a href="#" class="stop btn large primary">Stop!</a>
 				</div>
 			</form>
-			<div class="fetcher">
-				<p>Loading...</p>
+			<div class="fetcher-container">
+				<div class="fetcher">
+					<p>Loading...</p>
+				</div>
 			</div>
 			<ul class="tweets"></ul>
 		</div>
