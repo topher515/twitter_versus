@@ -1,6 +1,0 @@
-Hi! This is Twitter_Versus. Thrown together in half-a-day 
-by @chriskwilcox for a @nodeable job interview
-
-I really wanted to keep everything in one self-contained 
-HTML file, which is why we make heavy use of CDNs and have
-all of my scripts and CSS stuffed into this file.
